@@ -18,6 +18,8 @@
 		10951234176477F0009FE58C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10951233176477F0009FE58C /* Default-568h@2x.png */; };
 		10951237176477F0009FE58C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10951236176477F0009FE58C /* ViewController.m */; };
 		1095123A176477F0009FE58C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10951238176477F0009FE58C /* ViewController.xib */; };
+		1095124317647C4B009FE58C /* NextPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095124117647C4B009FE58C /* NextPageViewController.m */; };
+		1095124417647C4B009FE58C /* NextPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1095124217647C4B009FE58C /* NextPageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		10951235176477F0009FE58C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		10951236176477F0009FE58C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10951239176477F0009FE58C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1095124017647C4B009FE58C /* NextPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPageViewController.h; sourceTree = "<group>"; };
+		1095124117647C4B009FE58C /* NextPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextPageViewController.m; sourceTree = "<group>"; };
+		1095124217647C4B009FE58C /* NextPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextPageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				10951235176477F0009FE58C /* ViewController.h */,
 				10951236176477F0009FE58C /* ViewController.m */,
 				10951238176477F0009FE58C /* ViewController.xib */,
+				1095124017647C4B009FE58C /* NextPageViewController.h */,
+				1095124117647C4B009FE58C /* NextPageViewController.m */,
+				1095124217647C4B009FE58C /* NextPageViewController.xib */,
 				10951224176477F0009FE58C /* Supporting Files */,
 			);
 			path = UINavigationController01;
@@ -163,6 +171,7 @@
 				10951232176477F0009FE58C /* Default@2x.png in Resources */,
 				10951234176477F0009FE58C /* Default-568h@2x.png in Resources */,
 				1095123A176477F0009FE58C /* ViewController.xib in Resources */,
+				1095124417647C4B009FE58C /* NextPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				1095122A176477F0009FE58C /* main.m in Sources */,
 				1095122E176477F0009FE58C /* AppDelegate.m in Sources */,
 				10951237176477F0009FE58C /* ViewController.m in Sources */,
+				1095124317647C4B009FE58C /* NextPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

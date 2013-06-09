@@ -38,4 +38,29 @@
     [super viewWillDisappear:animated];
 }
 
+#pragma mark -
+#pragma mark Button Properties
+
+- (void)createButton
+{
+    CGSize screenRect = [[UIScreen mainScreen] bounds].size;
+    
+    UIButton *nextPageButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    
+    [nextPageButton setTitle:@"Next Page" forState:UIControlStateNormal];
+    [nextPageButton addTarget:self
+                       action:nil
+             forControlEvents:UIControlEventTouchUpInside];
+    
+    if (screenRect.height > 500) {
+        nextPageButton.frame = CGRectMake(100.0, 388.0, 120.0, 40.0);
+    }
+    
+    else {
+        nextPageButton.frame = CGRectMake(100.0, 300.0, 120.0, 40.0);
+    }
+    
+    [self.view addSubview:nextPageButton];
+}
+
 @end

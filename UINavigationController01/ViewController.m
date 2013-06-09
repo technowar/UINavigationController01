@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "NextPageViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -49,7 +51,7 @@
     
     [nextPageButton setTitle:@"Next Page" forState:UIControlStateNormal];
     [nextPageButton addTarget:self
-                       action:nil
+                       action:@selector(nextPage)
              forControlEvents:UIControlEventTouchUpInside];
     
     if (screenRect.height > 500) {
@@ -61,6 +63,13 @@
     }
     
     [self.view addSubview:nextPageButton];
+}
+
+- (void)nextPage
+{
+    NextPageViewController *nextViewController = [[NextPageViewController alloc] initWithNibName:@"NextPageViewController" bundle:nil];
+    
+    [self.navigationController pushViewController:nextViewController animated:YES];
 }
 
 @end

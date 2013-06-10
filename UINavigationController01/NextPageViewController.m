@@ -8,6 +8,8 @@
 
 #import "NextPageViewController.h"
 
+#import "LastPageViewController.h"
+
 @interface NextPageViewController ()
 
 @end
@@ -27,10 +29,16 @@
 {
     [super viewDidLoad];
     
+    UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithTitle: @"Next"
+                                                                       style:UIBarButtonItemStylePlain
+                                                                      target:self
+                                                                      action:@selector(nextButtonPressed)];
     UIBarButtonItem *leftBarButton = [[UIBarButtonItem alloc] initWithTitle: @"Cancel"
                                                                       style:UIBarButtonItemStylePlain
                                                                      target:self
                                                                      action:@selector(cancelButtonPressed)];
+    
+    self.navigationItem.rightBarButtonItem = rightBarButton;
     self.navigationItem.leftBarButtonItem =leftBarButton;
 }
 
@@ -40,11 +48,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark -
+#pragma mark Button Properties
+
 - (void)cancelButtonPressed
 {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)nextButtonPressed
+{
+    LastPageViewController *lastPageViewController = [[LastPageViewController alloc] initWithNibName:@"LastPageViewController" bundle:nil];
     
-    NSLog(@"Cancel");
+    [self.navigationController pushViewController:lastPageViewController animated:YES];
 }
 
 @end

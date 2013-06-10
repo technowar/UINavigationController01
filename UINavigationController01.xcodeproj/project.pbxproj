@@ -20,6 +20,8 @@
 		1095123A176477F0009FE58C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10951238176477F0009FE58C /* ViewController.xib */; };
 		1095124317647C4B009FE58C /* NextPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095124117647C4B009FE58C /* NextPageViewController.m */; };
 		1095124417647C4B009FE58C /* NextPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1095124217647C4B009FE58C /* NextPageViewController.xib */; };
+		109512681765BA7E009FE58C /* LastPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109512661765BA7D009FE58C /* LastPageViewController.m */; };
+		109512691765BA7E009FE58C /* LastPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109512671765BA7E009FE58C /* LastPageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		1095124017647C4B009FE58C /* NextPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPageViewController.h; sourceTree = "<group>"; };
 		1095124117647C4B009FE58C /* NextPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextPageViewController.m; sourceTree = "<group>"; };
 		1095124217647C4B009FE58C /* NextPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextPageViewController.xib; sourceTree = "<group>"; };
+		109512651765BA7D009FE58C /* LastPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastPageViewController.h; sourceTree = "<group>"; };
+		109512661765BA7D009FE58C /* LastPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastPageViewController.m; sourceTree = "<group>"; };
+		109512671765BA7E009FE58C /* LastPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastPageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 				1095124017647C4B009FE58C /* NextPageViewController.h */,
 				1095124117647C4B009FE58C /* NextPageViewController.m */,
 				1095124217647C4B009FE58C /* NextPageViewController.xib */,
+				109512651765BA7D009FE58C /* LastPageViewController.h */,
+				109512661765BA7D009FE58C /* LastPageViewController.m */,
+				109512671765BA7E009FE58C /* LastPageViewController.xib */,
 				10951224176477F0009FE58C /* Supporting Files */,
 			);
 			path = UINavigationController01;
@@ -172,6 +180,7 @@
 				10951234176477F0009FE58C /* Default-568h@2x.png in Resources */,
 				1095123A176477F0009FE58C /* ViewController.xib in Resources */,
 				1095124417647C4B009FE58C /* NextPageViewController.xib in Resources */,
+				109512691765BA7E009FE58C /* LastPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				1095122E176477F0009FE58C /* AppDelegate.m in Sources */,
 				10951237176477F0009FE58C /* ViewController.m in Sources */,
 				1095124317647C4B009FE58C /* NextPageViewController.m in Sources */,
+				109512681765BA7E009FE58C /* LastPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +320,7 @@
 				1095123F176477F0009FE58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
